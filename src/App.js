@@ -38,7 +38,7 @@ class App extends Component {
   }
 
   async loadBlockchainData() {
-    //added line 30
+
     await window.ethereum.enable()
     const accounts = await web3.eth.getAccounts();
     web3.eth.defaultAccount = accounts[0];
@@ -48,14 +48,8 @@ class App extends Component {
     this.setState({ account: accounts[0] });
   }
 
-  // myevent =()=> certcontract.added();
-  // myevent =()=>watch((error,result)=>{
-  //  console.log(result);
-  // });
-
   add = data => {
     
-    // const certificates = new this.state.web3.eth.Contract(abi, address);
     console.log(data.fname, data.course, data.email);
     var name = data.fname + " " + data.lname;
     certcontract.methods.addcert(name, data.course, data.email).send(
@@ -69,7 +63,7 @@ class App extends Component {
           this.setState({ name: data.fname + " " + data.lname });
           this.setState({ course: data.course + " " + "Course"});
           this.setState({ txh: result });
-          //console.log(result);
+
           certcontract.methods
             .getid()
             .call({ from: this.state.account }, (error, result) => {
@@ -77,11 +71,6 @@ class App extends Component {
               if (!error) console.log(result);
               else console.log(error);
             });
-          // certcontract.events.added({}, (error, ev) => {
-          // // to use event below 2 lines
-          // let key = Object.keys(ev[1].returnValues)[1];
-          // console.log(ev[1].returnValues[key]);
-          // });
         }
       }
     );
@@ -96,7 +85,6 @@ class App extends Component {
           const v = Object.values(result);
           this.setState({ output: v });
           this.setState({ tofound: true });
-          //this.history.pushState("certfound");
           console.log(this.state.output);
         } else alert("Certificate not found");
       });

@@ -1,0 +1,89 @@
+body, html {
+  /* background-image: url("b5.jpg"); */
+  /* background-color: #0e0c17; */
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  
+.cert {
+
+  position:relative;
+} 
+
+.pc {
+  /* The image used */
+  background-image: url("b5.jpg") no-repeat;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#fname {
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  left: 0;
+  right: 60%;
+}
+
+
+#course {
+  font-size: 40px;
+  position: absolute;
+  top: 62%;
+  bottom: 0;
+  left: 0;
+  right: 60%;
+}
+
+#txh {
+  font-size: 20px;
+  position: absolute;
+  top: 75%;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+}
+
+
+#id {
+  font-size: 30px;
+  position: absolute;
+  top: 84%;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+}
+
+  .btn1 {
+    position: absolute;
+    top: 95%;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+    background-color: blue;
+    display: hidden;
+  }
+
+/* .print, tr, svg, .card-chart {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  }
+
+.img {
+  page-break-inside: avoid;
+  } */

@@ -1,0 +1,46 @@
+.login
+{
+    text-align: center;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: gray;
+    margin-left: 38.5%;
+    margin-top: 100px;
+    opacity: 0.8;
+}
+.login h2
+{
+    color: whitesmoke;
+    opacity: 0.9;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.input-group span
+{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+    text-transform: uppercase;
+}
+.login .input-group button
+{
+    background: blue;
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+}
+.login .input-group button:hover
+{
+    background: white;
+}
