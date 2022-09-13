@@ -74,7 +74,7 @@ Additionally the digital certificates can be converted into `NFT`'s (Non Fungabl
 
 ## Acknowledgements
 
- - [@nitinkumavat](https://github.com/nitinskumavat) for the frontend skeleton structure for the application.
+ - [@nitinkumavat](https://github.com/nitinskumavat) for the frontend skeleton structure of the application.
  
 ## Authors
 
