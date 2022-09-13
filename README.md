@@ -37,13 +37,13 @@ The contract owner now whitelists the colleges that wish to partake by filling i
 Clone the project :
 
 ```bash
-  git clone https://github.com/Nithin-bd/blockchain-certs
+  git clone https://github.com/Nithin-bd/block-certify
 ```
 
 Go to the project directory :
 
 ```bash
-  cd blockchain-certs
+  cd block-certify
 ```
 
 Install dependencies :
