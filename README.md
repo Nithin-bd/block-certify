@@ -62,6 +62,12 @@ Start the server :
 ```
 The frontend application should be running on http://localhost:3000/ 
 
+## Features
+
+- Certificate generation
+- Certificate validation
+- IPFS storage
+
 ## Future work
 
 Additionally the digital certificates can be converted into `NFT`'s (Non Fungable Tokens) and could be delivered to students' wallets to prove digital ownership of certificates.
