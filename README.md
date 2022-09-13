@@ -21,11 +21,13 @@ While using `ropstan network` you will need to have test ether by requesting it 
 - Deploy & Run the contract by selecting `Injected Provider - MetaMask`
 
 The Deployed contract will look like:
+
 ![deployed_contract](https://user-images.githubusercontent.com/83744735/189880880-f4aff841-bb6a-4134-b5fe-afc4bf3201b2.JPG)
 
 ### `Step 3:`
 
 The contract owner now whitelists the colleges that wish to partake by filling in the following details:
+
 ![whitelist](https://user-images.githubusercontent.com/83744735/189880928-61ed4f2d-387a-4b09-b7cc-33d0a39c4311.JPG)
 
 `coladd` refers to the respective college wallet address.
