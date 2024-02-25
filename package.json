@@ -13,7 +13,7 @@
     "react-ipfs-uploader": "^1.2.6",
     "react-router": "^6.3.0",
     "react-router-dom": "^5.3.1",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "save-html-as-image": "^1.7.1",
     "use-react-screenshot": "^3.0.0",
     "web3": "^1.0.0-beta.50"
